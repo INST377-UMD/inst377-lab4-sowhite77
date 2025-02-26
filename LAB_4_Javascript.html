@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>INST377 - JS Practice</title>
+    <link rel="stylesheet" href="LAB_4.css"> 
+    <script src="LAB_4.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="bar">
+        <h1 id="pageTitle">Sophia's INST 377 Lab 4</h1>
+    </header>
+
+    <!-- General Content Area -->
+    <div class="main-container">
+        <h1>Web Features</h1>
+
+        <div class="content-area">
+            <!-- Alert Me Section -->
+            <div class="content-box" id="alertMeSection">
+                <h2>Alert Me Section</h2>
+                <form id="alertForm">
+                    <input type="text" id="nameInput" placeholder="Enter your name" required>
+                    <button type="button" onclick="alertMe()">Alert Me</button>
+                </form>
+            </div>
+
+            <!-- Change Color Section -->
+            <div class="content-box" id="changeColorSection">
+                <h2>Change Color Section</h2>
+                <button type="button" onclick="changeColor()">Change Color</button>
+            </div>
+
+            <!-- Text Tester Section -->
+            <div class="content-box" id="textTesterSection">
+                <h2>Text Tester Section</h2>
+                <form id="textForm">
+                    <input type="text" id="textInput" placeholder="Enter text">
+                    <button type="button" onclick="validateText()">Validate Text</button>
+                </form>
+            </div>
+
+            <!-- Add Text Section -->
+            <div class="content-box" id="addTextSection">
+                <h2>Add Text Section</h2>
+                <button type="button" onclick="addText()">Add Text</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="bar">
+        <p>That's all for now! -Sophia </p>
+    </footer>
+
+</body>
+</html>
